@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>0.1 HTML</title>
+ 
+    <!-- Estilos de color para la página -->
+    <style>
+        /* Color deL fondo */
+        body {
+            background-color: #f0f4ff;
+            font-family: Arial, sans-serif;
+            color: #222;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+ 
+        /* Color del encabezado */
+        h1 {
+            color: #1a3a8f;
+            border-bottom: 3px solid #1a3a8f;
+            padding-bottom: 8px;
+        }
+ 
+        /* Estilo del texto */
+        p {
+            color: #333;
+            line-height: 1.7;
+        }
+ 
+        /* Estilo de la barra de navegación */
+        .navegacion {
+            margin-top: 40px;
+            display: flex;
+            gap: 16px;
+        }
+ 
+        /* Estilo de los enlaces de navegación */
+        .navegacion a {
+            background-color: #1a3a8f;
+            color: #ffffff;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+ 
+        /* Efecto al pasar el mouse sobre los enlaces */
+        .navegacion a:hover {
+            background-color: #2e5bdf;
+        }
+ 
+        /* Estilo de la etiqueta que indica en qué página estamos */
+        .pagina-actual {
+            background-color: #d0d8f5;
+            color: #1a3a8f;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+ 
+    <!-- Encabezado principal de la página -->
+    <h1> Bienvenido a la Página 1</h1>
+    <p>
+        Hola mi nombre es Carlos Mate Peña y aqui veremos algunas de las cosas aprendidas en clase de programación web
+        <strong>HTML</strong>, el lenguaje que da estructura a todas las páginas web.
+        HTML significa <em>HyperText Markup Language</em> y es la base del desarrollo web.
+    </p>
+    <p>
+        Con HTML podemos crear encabezados, párrafos, imágenes, listas y, por supuesto,
+        <strong>enlaces</strong> que conectan unas páginas con otras. Navega usando los
+        botones de abajo para ir a la siguiente página.
+    </p>
+    <p>
+        Para el diseño de esta actividiad decidí que dada pagina tuviera su propio color
+        y contenido, pero las 3 estan conectadas entre sí.
+    </p>
+ 
+    <!-- Barra de navegación entre páginas -->
+    <div class="navegacion">
+        <!-- Indicador de página actual (no es enlace) -->
+        <span class="pagina-actual">← Página 1 (estás aquí)</span>
+ 
+        <!-- Enlace a la siguiente página -->
+        <a href="02.html">Página 2 →</a>
+ 
+        <!-- Enlace directo a la última página -->
+        <a href="03.html">Página 3 →→</a>
+    </div>
+ 
+</body>
+</html>
