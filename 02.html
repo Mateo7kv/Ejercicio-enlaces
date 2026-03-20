@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2 - Mi Sitio Web</title>
+    <!-- CSS -->
+    <style>
+        /* Color de fondo */
+        body {
+            background-color: #f0fff4;
+            font-family: Arial, sans-serif;
+            color: #222;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* Color del titulo*/
+        h1 {
+            color: #1a6e3a;
+            border-bottom: 3px solid #1a6e3a;
+            padding-bottom: 8px;
+        }
+
+        /* Estilo de los textos */
+        p {
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* titulo 2 */
+        h2 {
+            color: #2e8f55;
+        }
+
+        /* Lista de elementos */
+        ul {
+            color: #333;
+            line-height: 2;
+        }
+
+        /* Resaltado de elementos en la lista */
+        ul li strong {
+            color: #1a6e3a;
+        }
+
+        /* Estilo de la barra */
+        .navegacion {
+            margin-top: 40px;
+            display: flex;
+            gap: 16px;
+        }
+
+        /* Estilo de los enlaces */
+        .navegacion a {
+            background-color: #1a6e3a;
+            color: #ffffff;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        /* Efecto al pasar el mouse sobre los enlaces */
+        .navegacion a:hover {
+            background-color: #27a85a;
+        }
+
+        /* Estilo de página actual */
+        .pagina-actual {
+            background-color: #c8f0d8;
+            color: #1a6e3a;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Todos los textos-->
+    <h1> Bienvenido a la página 2</h1>
+    <p>
+        Esta es la segunda página del sitio. En esta sección hablaremos sobre las
+        <strong>etiquetas de formato</strong> en HTML, que nos permiten dar estilo
+        y significado al texto de nuestras páginas web.
+    </p>
+    <h2>Etiquetas de formato más usadas</h2>
+    <ul>
+        <li><strong>&lt;b&gt;</strong> – Texto en <b>negrita</b> (propósito visual)</li>
+        <li><strong>&lt;strong&gt;</strong> – Texto <strong>importante</strong> (semántico)</li>
+        <li><strong>&lt;i&gt;</strong> – Texto en <i>cursiva</i> (propósito visual)</li>
+        <li><strong>&lt;em&gt;</strong> – Texto con <em>énfasis</em> (semántico)</li>
+        <li><strong>&lt;mark&gt;</strong> – Texto <mark>resaltado</mark></li>
+        <li><strong>&lt;del&gt;</strong> – Texto <del>eliminado</del></li>
+        <li><strong>&lt;ins&gt;</strong> – Texto <ins>insertado</ins></li>
+        <li><strong>&lt;sub&gt;</strong> – Subíndice: H<sub>2</sub>O</li>
+        <li><strong>&lt;sup&gt;</strong> – Superíndice: x<sup>2</sup></li>
+    </ul>
+    <p>
+        Conocer estas etiquetas nos ayuda a presentar mejor la información
+        y a que los navegadores interpreten correctamente el significado de cada parte del texto.
+    </p>
+    <div class="navegacion">
+        <a href="01.html">← Página 1</a>
+        <span class="pagina-actual">Página 2 (estás aquí)</span>
+        <a href="03.html">Página 3 →</a>
+    </div>
+</body>
+</html>

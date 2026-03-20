@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 3 - Mi Sitio Web</title>
+    <!-- CSS -->
+    <style>
+        /* Color de fondo */
+        body {
+            background-color: #fff8f0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        /*color del encabezado principal*/
+        h1 {
+            color: #b84a00;
+            border-bottom: 3px solid #b84a00;
+            padding-bottom: 8px;
+        }
+        /*color de los titulos*/
+        h2 {
+            color: #d45f00;
+        }
+        /*color de los párrafos y estilo*/
+        p {
+            color: #333;
+            line-height: 1.7;
+        }
+        /*cuadro de conclusión*/
+        .conclusion {
+            background-color: #fde8d0;
+            border-left: 5px solid #b84a00;
+            padding: 14px 18px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        /*texto de conclusión*/
+        .conclusion p {
+            margin: 0;
+            color: #6b2a00;
+        }
+        /*estilo de la barra de navegación*/
+        .navegacion {
+            margin-top: 40px;
+            display: flex;
+            gap: 16px;
+        }
+        /*estilo de los enlaces de navegación*/
+        .navegacion a {
+            background-color: #b84a00;
+            color: #ffffff;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        /*efecto al pasar el mouse por los enlaces*/
+        .navegacion a:hover {
+            background-color: #e06010;
+        }
+        /*estilo del indicador de página actual*/
+        .pagina-actual {
+            background-color: #fcd8b8;
+            color: #b84a00;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--Toda la info-->
+    <h1> Bienvenido a la página 3</h1>
+    <p>
+        Llegaste a la tercera y última página del sitio. Aquí encontrarás un resumen
+        de lo que hemos visto sobre <strong>HTML</strong> y cómo se conectan
+        los conceptos para construir un sitio web completo.
+    </p>
+    <h2>¿Qué hemos aprendido?</h2>
+    <p>
+        En la <strong>Página 1</strong> tuvimos una pequeña introducción,
+        y vimos que HTML es el lenguaje base de la web.
+    </p>    
+    <p>
+        En la <strong>Página 2</strong> repasamos las etiquetas de formato como
+        <b>&lt;strong&gt;</b>, <b>&lt;em&gt;</b>, <mark>&lt;mark&gt;</mark>,
+        <del>&lt;del&gt;</del> e <ins>&lt;ins&gt;</ins>, que enriquecen
+        el contenido y le dan significado al texto.
+    </p>
+    <p>
+        En esta <strong>Página 3</strong> confirmamos que los <strong>enlaces</strong>
+        son fundamentales para conectar páginas entre sí, usando la etiqueta
+        <em>&lt;a href="..."&gt;</em> con la ruta del archivo destino.
+    </p>
+    <div class="conclusion">
+        <p>
+            <strong>Conclusión:</strong> Como vimos en tanto los comentarios como los
+            enlaces son sumamente utiles y como se nos explica en los materiales de la
+            clase son sumamente comunes a la hora de hacer un proyecto web, vimos que hay
+            varios tipos de enlaces aunque no lo incluí en el material de esta presentación
+            y parrafos solo hay de un tipo mas bien las etiquetas son las que nos ayudan dar 
+            formato y de esa manera construir un sitio web mas completo. 
+        </p>
+    </div>
+    <div class="navegacion">
+        <a href="01.html">←← Página 1</a>
+        <a href="02.html">← Página 2</a>
+        <span class="pagina-actual">Página 3 (estás aquí)</span>
+    </div>
+</body>
+</html>
